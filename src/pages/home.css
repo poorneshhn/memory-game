@@ -1,0 +1,33 @@
+.cardlist-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+
+  margin: 0;
+  padding: 10px 0 40px;
+}
+
+.left {
+  gap: 20px;
+  align-items: center;
+  font-size: 2rem;
+}
+.game-options,
+.left {
+  display: flex;
+  justify-content: space-between;
+}
+.reset {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.reset:hover {
+  text-decoration: underline;
+}

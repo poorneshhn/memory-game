@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.start-button {
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.start-button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+.timer {
+  gap: 10px;
+}
+
+.colon {
+  margin-bottom: 5px;
+}
